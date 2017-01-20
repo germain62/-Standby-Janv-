@@ -1,0 +1,66 @@
+*{
+  margin : 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'poker';
+  src:url(../font/PokerKings-Regular.ttf);
+}
+body{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../images/poker.jpg);
+}
+h1 , h3 , h5 ,label{
+  font-family: 'poker';
+  color:white;
+  font-style: italic;
+}
+p{
+  color: white;
+}
+
+iframe{
+  margin-left: 5%;
+}
+img{
+  margin-top: 6%;
+}
+.form-group{
+  width: 400px;
+  margin-left: 35%;
+}
+.bgblack{
+  background-color: rgb(0, 0, 0);
+}
+#demo1 , #demo2{
+  display: none;
+}
+.bggrey{
+  background-color: rgba(191, 187, 187, 0.33);
+}
+.shadow{
+  text-shadow: black 1px 1px 1px;
+}
+textarea{
+  resize: none;
+}
+.modal-body p{
+  color:black;
+}
+#lorem{
+  margin-top: 3%;
+  margin-left: 2%;
+}
+#base{
+  margin-top: 3%;
+  text-shadow: black 1px 1px 1px;
+}
+.contact{
+  background-image: url(../images/contact.jpg);
+  background-size: contain;
+}
+#message{
+  text-shadow: black 1px 1px 1px;
+  background-color: rgba(133, 128, 135, 0.63);
+}
